@@ -1,4 +1,3 @@
-
 const cells = document.querySelectorAll(".cell");
 const status = document.getElementById("status");
 const restart = document.getElementById("restart");
@@ -32,7 +31,7 @@ cells.forEach((cell, index) => {
 
         if (gameActive) {
             status.textContent = "Computer is thinking...";
-            
+
             setTimeout(computerMove, 500);
         }
     });
